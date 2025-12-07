@@ -61,6 +61,7 @@ Data format
     "description": "Lunch"
   }
 ]
+
 - Test the formatter:
   ```cmd
   python -c "from utils import format_won; print(format_won(123456.87))"
