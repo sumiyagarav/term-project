@@ -25,7 +25,7 @@ pip install matplotlib
 
 1. Open Command Prompt and change directory to the project folder:
 ```cmd
-cd C:\path\expense_tracker
+cd C:\path\expense_tracker (e.g. cd C:\Users\Admin\term-project).
 ```
 
 2. Run the CLI:
@@ -52,7 +52,6 @@ Data format
   - description: string
 
   Example `data.json` entry:
-
 
   {
     "amount": 8500.0,
