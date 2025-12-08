@@ -7,7 +7,7 @@ This is a simple personal expense tracker with cli, csv export, and visualizatio
 
 ## Prerequisites
 - Python
-- matplotlib (for visualization)
+- `matplotlib` (for visualization)
 
 Install matplotlib:
 ```cmd
@@ -36,12 +36,15 @@ Menu options let you:
 - Add/list/delete expenses
 - Export CSV
 - Show a category chart
+<img width="1130" height="760" alt="run" src="https://github.com/user-attachments/assets/e803baba-52c5-4e1f-839a-b284c2391920" />
 
 3. Run visualization directly:
    ```cmd
    python visualize.py
    ```
-      
+   - In this screenshot you can see that I only ran the visualization because I already installed `matplotlib`. 
+<img width="1838" height="825" alt="visualize" src="https://github.com/user-attachments/assets/9e5468d8-a05b-4cb9-a03a-aa8635819430" />
+
 ## Notes:
    
 Data format
@@ -51,21 +54,11 @@ Data format
   - category: string
   - description: string
 
-  Example `data.json` entry:
-
-  {
-    "amount": 8500.0,
-    "date": "2025-12-06",
-    "category": "Food",
-    "description": "Lunch"
-  }
-
 - Backup current data.json:
 ('from the project directory')
   ```cmd
   copy data.json data.json.bak
  
-## Inspiration 
  - I daily use money manager application so i thought it would be cool if i could do it from my laptop. I'm not a cs major so it's not advanced but i tried my best. 
  ## Reference
  - Repository template - https://github.com/always0ne/repositoryTemplate
